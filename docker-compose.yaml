@@ -27,7 +27,7 @@ services:
       retries: 3
 networks:
   default:
-    external:
-      name: yadom
+    name: yadom
+    external: true
 volumes:
   minio_storage: {}
